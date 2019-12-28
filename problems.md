@@ -271,55 +271,55 @@ For Scenario `i`, write and test code for the problems in Columns `0` to `i - 1`
 
 ## Graphs
 
-| #    | Problem                                                          | Python                                             |
-| ---  | ------                                                           | ------                                             |
-| 18.1 | Search a maze                                                    | search\_maze.py                                    |
-| 18.2 | Paint a Boolean matrix                                           | matrix\_connected\_regions.py                      |
-| 18.3 | Compute enclosed regions                                         | matrix\_enclosed\_regions.py                       |
-| 18.4 | Deadlock detection                                               | deadlock\_detection.py                             |
-| 18.5 | Clone a graph                                                    | graph\_clone.py                                    |
-| 18.6 | Making wired connections                                         | is\_circuit\_wirable.py                            |
-| 18.7 | Transform one string to another                                  | string\_transformability.py                        |
-| 18.8 | Team photo day - 2                                               | max\_teams\_in\_photograph.py                      |
+| #    | Problem                         | Python                        |
+| ---  | ------                          | ------                        |
+| 18.1 | Search a maze                   | search\_maze.py               |
+| 18.2 | Paint a Boolean matrix          | matrix\_connected\_regions.py |
+| 18.3 | Compute enclosed regions        | matrix\_enclosed\_regions.py  |
+| 18.4 | Deadlock detection              | deadlock\_detection.py        |
+| 18.5 | Clone a graph                   | graph\_clone.py               |
+| 18.6 | Making wired connections        | is\_circuit\_wirable.py       |
+| 18.7 | Transform one string to another | string\_transformability.py   |
+| 18.8 | Team photo day - 2              | max\_teams\_in\_photograph.py |
 
 ## Honors Class
 
-| Problem                                                          | Python                                             |
-| ------                                                           | ------                                             |
-| Compute the greatest common divisor                              | gcd.py                                             |
-| Find the first missing positive entry                            | first\_missing\_positive\_entry.py                 |
-| Buy and sell a stock k times                                     | buy\_and\_sell\_stock\_k\_times.py                 |
-| Compute the maximum product of all entries but one               | max\_product\_all\_but\_one.py                     |
-| Compute the longest contiguous increasing subarray               | longest\_increasing\_subarray.py                   |
-| Rotate an array                                                  | rotate\_array.py                                   |
-| Identify positions attacked by rooks                             | rook\_attack.py                                    |
-| Justify text                                                     | left\_right\_justify\_text.py                      |
-| Implement list zipping                                           | zip\_list.py                                       |
-| Copy a postings list                                             | copy\_posting\_list.py                             |
-| Compute the longest substring with matching parens               | longest\_substring\_with\_matching\_parentheses.py |
-| Compute the maximum of a sliding window                          | max\_of\_sliding\_window.py                        |
-| Implement a postorder traversal without recursion                | tree\_postorder.py                                 |
-| Compute fair bonuses                                             | bonus.py                                           |
-| Search a sorted array of unknown length                          | search\_unknown\_length\_array.py                  |
-| Search in two sorted arrays                                      | kth\_largest\_element\_in\_two\_sorted\_arrays.py  |
-| Find the kth largest element - large n, small k                  | kth\_largest\_element\_in\_long\_array.py          |
-| Find an element that appears only once                           | element\_appearing\_once.py                        |
-| Find the line through the most points                            | line\_through\_most\_points.py                     |
-| Convert a sorted doubly linked list into a BST                   | sorted\_list\_to\_bst.py                           |
-| Convert a BST to a sorted doubly linked list                     | bst\_to\_sorted\_list.py                           |
-| Merge two BSTs                                                   | bst\_merge.py                                      |
-| Implement regular expression matching                            | regular\_expression.py                             |
-| Synthesize an expression                                         | insert\_operators\_in\_string.py                   |
-| Count inversions                                                 | count\_inversions.py                               |
-| Draw the skyline                                                 | drawing\_skyline.py                                |
-| Measure with defective jugs                                      | defective\_jugs.py                                 |
-| Compute the maximum subarray sum in a circular array             | maximum\_subarray\_in\_circular\_array.py          |
-| Determine the critical height                                    | max\_safe\_height.py                               |
-| Find the maximum 2D subarray                                     | max\_submatrix.py                                  |
-| Find the maximum 2D subarray                                     | max\_square\_submatrix.py                          |
-| Implement Huffman coding                                         | huffman\_coding.py                                 |
-| Trapping water                                                   | max\_water\_trappable.py                           |
-| The heavy hitter problem                                         | search\_frequent\_items.py                         |
-| Find the longest subarray whose sum <=  k                        | longest\_subarray\_with\_sum\_constraint.py        |
-| Road network                                                     | road\_network.py                                   |
-| Test if arbitrage is possible                                    | arbitrage.py                                       |
+| Problem                                              | Python                                             |
+| ------                                               | ------                                             |
+| Compute the greatest common divisor                  | gcd.py                                             |
+| Find the first missing positive entry                | first\_missing\_positive\_entry.py                 |
+| Buy and sell a stock k times                         | buy\_and\_sell\_stock\_k\_times.py                 |
+| Compute the maximum product of all entries but one   | max\_product\_all\_but\_one.py                     |
+| Compute the longest contiguous increasing subarray   | longest\_increasing\_subarray.py                   |
+| Rotate an array                                      | rotate\_array.py                                   |
+| Identify positions attacked by rooks                 | rook\_attack.py                                    |
+| Justify text                                         | left\_right\_justify\_text.py                      |
+| Implement list zipping                               | zip\_list.py                                       |
+| Copy a postings list                                 | copy\_posting\_list.py                             |
+| Compute the longest substring with matching parens   | longest\_substring\_with\_matching\_parentheses.py |
+| Compute the maximum of a sliding window              | max\_of\_sliding\_window.py                        |
+| Implement a postorder traversal without recursion    | tree\_postorder.py                                 |
+| Compute fair bonuses                                 | bonus.py                                           |
+| Search a sorted array of unknown length              | search\_unknown\_length\_array.py                  |
+| Search in two sorted arrays                          | kth\_largest\_element\_in\_two\_sorted\_arrays.py  |
+| Find the kth largest element - large n, small k      | kth\_largest\_element\_in\_long\_array.py          |
+| Find an element that appears only once               | element\_appearing\_once.py                        |
+| Find the line through the most points                | line\_through\_most\_points.py                     |
+| Convert a sorted doubly linked list into a BST       | sorted\_list\_to\_bst.py                           |
+| Convert a BST to a sorted doubly linked list         | bst\_to\_sorted\_list.py                           |
+| Merge two BSTs                                       | bst\_merge.py                                      |
+| Implement regular expression matching                | regular\_expression.py                             |
+| Synthesize an expression                             | insert\_operators\_in\_string.py                   |
+| Count inversions                                     | count\_inversions.py                               |
+| Draw the skyline                                     | drawing\_skyline.py                                |
+| Measure with defective jugs                          | defective\_jugs.py                                 |
+| Compute the maximum subarray sum in a circular array | maximum\_subarray\_in\_circular\_array.py          |
+| Determine the critical height                        | max\_safe\_height.py                               |
+| Find the maximum 2D subarray                         | max\_submatrix.py                                  |
+| Find the maximum 2D subarray                         | max\_square\_submatrix.py                          |
+| Implement Huffman coding                             | huffman\_coding.py                                 |
+| Trapping water                                       | max\_water\_trappable.py                           |
+| The heavy hitter problem                             | search\_frequent\_items.py                         |
+| Find the longest subarray whose sum <=  k            | longest\_subarray\_with\_sum\_constraint.py        |
+| Road network                                         | road\_network.py                                   |
+| Test if arbitrage is possible                        | arbitrage.py                                       |
