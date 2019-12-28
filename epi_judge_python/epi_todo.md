@@ -1,5 +1,5 @@
 | #    | Problem                                                | File                                  |
-| ---  | ------                                                 | ------                                |
+| ---: | :------                                                | :------                               |
 |      | **Primitive Types**                                    |                                       |
 | 4.1  | Computing the parity of a word                         | parity.py                             |
 | 4.7  | Compute x^y                                            | power_x_y.py                          |
