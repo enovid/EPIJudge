@@ -6,22 +6,8 @@ from test_framework.test_utils import enable_executor_hook
 
 
 def decompose_into_dictionary_words(domain, dictionary):
-    dp = [-1] * len(domain)
-    for i in range(len(domain)):
-        if domain[:i+1] in dictionary: # check for dictionary word
-            dp[i] = i + 1
-        else:                          # check if prefix + dictionary           
-            for j in range(i):
-                if dp[j] != -1 and domain[j+1:i+1] in dictionary:
-                    dp[i] = i - j
-    if dp[-1] != -1: # construct decomposition
-        decomposition = []
-        end = len(dp) 
-        while end > 0:
-            decomposition.append(domain[end - dp[end-1]:end])
-            end -= dp[end-1]
-        return decomposition[::-1]
-    return []
+    last_len = [-1] * len(domain)
+
 
 
 @enable_executor_hook
