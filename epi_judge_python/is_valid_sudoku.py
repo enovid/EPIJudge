@@ -1,9 +1,21 @@
 from test_framework import generic_test
 
 
-# Check if a partially filled matrix has any conflicts.
+def pr(g):
+    for i, row in enumerate(g):
+        fmt_row = ''
+        for j, num in enumerate(list(row)):
+            fmt_row += str(num) + ' '
+            if (j+1) % 3 == 0:
+                fmt_row += '| '
+        print(fmt_row)
+        if (i+1) % 3 == 0:
+            print(''.join(['-']*len(fmt_row)))
+    print()
+
 def is_valid_sudoku(partial_assignment):
-    # TODO - you fill in here.
+    pr(partial_assignment)
+    print(partial_assignment)
     return True
 
 
